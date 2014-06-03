@@ -1,0 +1,25 @@
+{
+  "name": "local-requirify",
+  "version": "0.0.0",
+  "description": "Browserify transform that allows both node modules and client side scripts to be required from the console.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jsdir/local-requirify.git"
+  },
+  "author": "Jason Sommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdir/local-requirify/issues"
+  },
+  "homepage": "https://github.com/jsdir/local-requirify",
+  "dependencies": {
+    "through": "~2.3.4",
+    "detective": "~3.1.0",
+    "innersource": "0.0.2",
+    "combine-source-map": "~0.3.0"
+  }
+}
